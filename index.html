@@ -8,10 +8,12 @@
 </head>
 <body>
   <a-scene>
-    <a-assets>
-     asset-item id="my-model-obj" src="https://cdn.glitch.me/aabf47a9-565d-4dad-9299-9bbf80d9de6c/Modelo%203d%20para%20T.%20A.%20V..obj?v=1744484136587"></a-asset-item>
-      <a-asset-item id="my-model-mtl" src="https://cdn.glitch.global/aabf47a9-565d-4dad-9299-9bbf80d9de6c/Modelo%203d%20para%20T.%20A.%20V..mtl?v=1744484204238"></a-asset-item>
-    </a-assets>
+   
+<a-assets>
+  <a-asset-item id="my-model-obj" src="https://cdn.glitch.me/aabf47a9-565d-4dad-9299-9bbf80d9de6c/Modelo%203d%20para%20T.%20A.%20V..obj?v=1744484136587"></a-asset-item>
+  <a-asset-item id="my-model-mtl" src="https://cdn.glitch.global/aabf47a9-565d-4dad-9299-9bbf80d9de6c/Modelo%203d%20para%20T.%20A.%20V..mtl?v=1744484204238"></a-asset-item>
+</a-assets>
+
     <a-entity obj-model="obj: #my-model-obj; mtl: #my-model-mtl"  position="0 1.6 -2" rotation="0 180 0" scale="1 1 1"></a-entity>
 
     <a-camera position="0 1.6 0"></a-camera>
